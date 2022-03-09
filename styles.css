@@ -199,3 +199,38 @@ header nav button{
     height: 6px;
     opacity: 1;
 }
+#blog .titleSection{
+    color: var(--blue);
+    text-align: left;
+}
+#blog .posts{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#blog .posts .post{
+    width: 30%
+}
+#blog .posts .post .image{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: var(--blue);
+    color: var(--white);
+    margin-bottom: 10px;
+}
+#blog .posts .post h4{
+    color: var(--blue);
+    margin-bottom: 16px;
+}
+#blog .posts .post p{
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--blue);
+    opacity: .9;
+}
