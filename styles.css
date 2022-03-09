@@ -199,6 +199,9 @@ header nav button{
     height: 6px;
     opacity: 1;
 }
+#blog{
+    background-color: var(--lightGreen);
+}
 #blog .titleSection{
     color: var(--blue);
     text-align: left;
@@ -233,4 +236,34 @@ header nav button{
     line-height: 20px;
     color: var(--blue);
     opacity: .9;
+}
+#ctaArea{
+    padding: 50px;
+    margin: 100px 5%;
+    margin-top: 150px;
+    background-color: var(--blue);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+#ctaArea .textGroup {
+    width: 55%;
+}
+#ctaArea .textGroup p{
+    opacity: .8;
+}
+#ctaArea .image{
+    position: absolute;
+    width: 30%;
+    background-color: var(--white);
+    height: 350px;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 15px;
+    box-shadow: -2px 2px 4px #00000026;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
