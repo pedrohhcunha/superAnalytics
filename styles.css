@@ -136,6 +136,7 @@ header nav button{
     height: 50px;
     border-radius: 5px;
     margin-right: 20px;
+    font-weight: 600;
 }
 #benefits .benefits .benefit .areaInfos{
     color: var(--blue);
@@ -266,4 +267,37 @@ header nav button{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+footer{
+    width: 100%;
+    background-color: var(--blue);
+    padding: 100px 5%;
+    padding-bottom: 0;
+}
+footer .subFooter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+footer .subFooter .masterGroup{
+    width: 350px;
+}
+footer .subFooter .masterGroup p{
+    margin-top: 10px;
+    opacity: .8;
+}
+footer .superFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    color: var(--white);
+}
+footer .contentGrroup ul{
+    margin-top: 10px;
+    text-decoration: none;
+    list-style: none;
 }
